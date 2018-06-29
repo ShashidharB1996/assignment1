@@ -1,6 +1,16 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: blue;
+    background-color: rgb(194, 197, 199);
+}
+
+header {
+    position:fixed;
+    top:1px;
+    left: 0;
+    width:100%;
+    text-align: center;
+    background: #EEE;
+    padding: 5px 0;
 }
 
 li{
@@ -14,7 +24,7 @@ ul a{
 
 ul a:hover{
     background-color: rgb(59, 54, 54);
-    color: rgba(20, 46, 161, 0.966);
+    color: rgba(237, 238, 241, 0.966);
 }
 
 

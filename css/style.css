@@ -1,7 +1,10 @@
 .wrap {
     overflow: hidden;
+    position: fixed;
+    width: 100%;
     background-color: rgba(9, 191, 247, 0.952);
     padding: 10px 5px;
+    padding-top:0;
 }
 
 .wrap a {
@@ -32,6 +35,11 @@
     text-align: center;
 }
 
+.new{
+    position: relative;
+    top: 100px;
+}
+
 footer p {
 	text-align: center;
 	font-size: 12px;
@@ -49,10 +57,25 @@ footer p {
 }
 
 .hero1 {
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: rgb(162, 182, 180);
     text-align: center;
-    font-style: italic
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.hero2{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+}
+.hero1 p{
+    /*overflow: hidden;*/
+    background-color: rgb(162, 182, 180);
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+
 }
 
 .hero1tag a {
@@ -60,8 +83,8 @@ footer p {
     text-decoration: none;
     padding: 12px;
     line-height: 25px;
-    border-radius: 4px;
-    padding-bottom: 10px;
+    border-radius: 2px;
+    padding-bottom: 15px;
 }
 
 .hero1tag a:hover {
