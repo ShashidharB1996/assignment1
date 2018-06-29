@@ -1,5 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: blue;
+}
+
 li{
     display: inline;
-    text-decoration: none;
-    text-decoration-color: brown;
+    padding-right: 10px;
 }
+
+ul a{
+    text-decoration: none;
+}
+
+ul a:hover{
+    background-color: rgb(59, 54, 54);
+    color: rgba(20, 46, 161, 0.966);
+}
+
+
+

@@ -52,6 +52,7 @@ footer p {
     overflow: hidden;
     background-color: rgb(162, 182, 180);
     text-align: center;
+    font-style: italic
 }
 
 .hero1tag a {
