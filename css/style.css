@@ -3,12 +3,8 @@
     position: fixed;
     margin-top: -130px ;
     width: 100%;
-    background-color: rgba(9, 191, 247, 0.952);
+    background-color: rgba(71, 216, 192, 0.952);;
     padding: 10px 5px;
-}
-
-.wrap h2{
-    font-family: cursive;
 }
 
 .wrap a {
@@ -78,8 +74,8 @@ footer p {
 
 .hero1tag a{
     text-decoration: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -90,7 +86,7 @@ footer p {
 .wrap1 {
     overflow: hidden;
     /*background-color: rgba(9, 191, 247, 0.952);*/
-    padding: 20px 5px;
+    padding: 30px 5px;
     margin: 0px auto;
 }
 
