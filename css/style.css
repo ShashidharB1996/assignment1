@@ -1,7 +1,9 @@
+/* allign body */
 body{
     margin: 0px;
 }
 
+/* Go further text  */
 .head{
     position: absolute;
     top: 57px;
@@ -9,6 +11,8 @@ body{
     font-family: "Roboto";    
     color: rgba(10, 27, 104, 0.966);
 }
+
+/* nav bar */
 .nav_bar {
     overflow: hidden;
     position: sticky;
@@ -19,6 +23,7 @@ body{
     box-shadow:0px 2px 2px #7F8C8D;
 }
 
+/* logo in nav bar and its hovering */
 .logo{
     float: left;
     text-decoration: none;
@@ -28,9 +33,12 @@ body{
     border-radius: 4px;
 }
 
+
 .logo a:hover {
     background-color: transparent;
 }
+
+/* float contents in nav bar and their hovering*/
 
 .header-right a {
     text-decoration: none;
@@ -45,18 +53,18 @@ body{
     color: rgba(10, 27, 104, 0.966);
 }
 
-
 .header-right {
     float: right;
 }
 
+/* hero image */
 .hero_image img{
     position: relative;
     top: 100px;
     width: 1270px;
 }
 
-
+/* hero text */
 .hero_text p {
   font-family: "Roboto";
   font-size: 25px;
@@ -77,6 +85,7 @@ body{
     text-align:center;
 }
 
+/* hero anchor tag and its hover */
 .hero1tag a{
     position: absolute;
     left: 570px;
@@ -90,11 +99,12 @@ body{
     border: 2px solid #008cba;
 }
 
-
 .hero1tag a:hover {
     background-color:#008cba;
     color: #ddd;
 }
+
+/* 3 column section  */
 .grids{
     margin-bottom: 75px;
 }
@@ -150,6 +160,7 @@ body{
     color: #ddd;
 }
 
+/* 2 column section */
 .head3{
     font-family: "Roboto";
     font-size: 25px;
@@ -165,7 +176,7 @@ body{
 }
 
 
-
+/* footer */
 .footer{
     padding-top: 55px;
     background-color: #008cba;
@@ -194,6 +205,7 @@ body{
 
 .footer p{
     padding-left: 350px;
+    margin-bottom: 0;
 }
   
   .fa:hover {
@@ -241,7 +253,7 @@ body{
     border-color: black;
 }
 
-
+/* next.html css */
 .hero_image1 img{
     position: relative;
     top: 180px;
