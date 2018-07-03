@@ -1,46 +1,56 @@
-/* allign body */
+/* body allignment */
 body{
-    margin: 0px;
+  margin: 0px;
 }
 
-/* Go further text  */
-.head{
-    position: absolute;
-    top: 57px;
-    left: 145px;
-    font-family: "Roboto";    
-    color: rgba(10, 27, 104, 0.966);
+/* nav bar section */
+header{
+background-color:#008cba;
+}
+.nav_bar_head{
+position: absolute;
+top: 46px;
+left: 150px;
+font-family: "Roboto";    
+color: rgba(10, 27, 104, 0.966);
+}
+.nav_bar h5 {
+  width: 25%;
+
+}
+header .nav_bar {
+  overflow: hidden;
+  position: sticky;
+  width: 50%;
+  height: 77px;
+  margin: 27px;
+  z-index: 1;
+  float: right;
+  background-color: transparent;
+  box-shadow:0px 2px 2px #7F8C8D;
+    }
+.nav_bar li { 
+/* position: relative; */
+float: right;
+/* display: inline; */
+/* padding-left: 110px; */
 }
 
-/* nav bar */
-.nav_bar {
-    overflow: hidden;
-    position: sticky;
-    width: 100%;
-    top: 0;
-    z-index: 10;
-    background-color:#008cba;
-    box-shadow:0px 2px 2px #7F8C8D;
-}
-
-/* logo in nav bar and its hovering */
-.logo{
-    float: left;
-    text-decoration: none;
-    margin: 20px 0px 0px 0px;
+/* logo properties */
+.logo img{
+    margin: 8px 0px 0px 0px;
     padding: 14px;
     line-height: 60px;
     border-radius: 4px;
+    width:136px;
+    height:70px;
 }
-
 
 .logo a:hover {
     background-color: transparent;
 }
 
-/* float contents in nav bar and their hovering*/
-
-.header-right a {
+.nav_bar li a {
     text-decoration: none;
     margin: 20px 8px 0px 0px;
     padding: 14px;
@@ -48,34 +58,37 @@ body{
     border-radius: 4px;
 }
 
-.header-right a:hover {
+.nav_bar li a:hover {
     background-color: #ddd;
     color: rgba(10, 27, 104, 0.966);
 }
 
+/*
 .header-right {
     float: right;
 }
 
-/* hero image */
-.hero_image img{
+*/
+/* hero section */
+
+/* hero unit ford mustang page */
+.hero_unit_fm img{
     position: relative;
-    top: 100px;
-    width: 1270px;
+    top: 150px;
+    width: 1280px;
 }
 
-/* hero text */
-.hero_text p {
-  font-family: "Roboto";
-  font-size: 25px;
-  color: rgb(58, 58, 58);
-  position: absolute;
-  top:135px;
-  left: 450px;
-  text-align: center;
-}
+.hero_unit_title_fm p {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: rgb(58, 58, 58);
+    position: absolute;
+    top:135px;
+    left: 450px;
+    text-align: center;
+  }
 
-.hero_text1 p{
+  .hero_unit_desc_fm p{
     font-family: "Roboto";
     font-size: 16px;
     color: rgb(58, 58, 58);
@@ -85,10 +98,9 @@ body{
     text-align:center;
 }
 
-/* hero anchor tag and its hover */
-.hero1tag a{
+.hero_unit_a_fm a{
     position: absolute;
-    left: 570px;
+    left: 485px;
     top:240px;
     text-align:center;
     font-size: 22px;
@@ -99,17 +111,55 @@ body{
     border: 2px solid #008cba;
 }
 
-.hero1tag a:hover {
+
+.hero_unit_a_fm a:hover {
     background-color:#008cba;
     color: #ddd;
 }
 
-/* 3 column section  */
+/* one more hero */
+.hero_unit_fm_2 img{
+    position: relative;
+    top: 180px;
+    width: 1340px;
+}
+
+.hero_unit_title_fm_2 p {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: rgb(245, 244, 244);
+    position: absolute;
+    top:1080px;
+    left: 220px;
+    text-align: center;
+  }
+
+.hero_unit_a_fm_2 a{
+    position: absolute;
+    left: 300px;
+    top:1130px;
+    text-align:center;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 11px;
+    line-height: 20px;
+    border-radius: 4px;
+    border: 4px solid #ddd;
+    color: #ddd;
+}
+
+
+.hero_unit_a_fm_2 a:hover {
+    background-color:#ddd;
+    color: #008cba;
+}
+
+
 .grids{
     margin-bottom: 75px;
 }
 .grids h1 {
-  font-family:"Roboto";
+  font-family: "Roboto";
   font-size: 25px;
   color: rgb(58, 58, 58);
   position: absolute;
@@ -138,7 +188,7 @@ body{
       margin : 6px 6px;
   }
 
-.colmn{
+/* .colmn{
     padding-top: 5px;
     padding-left: 106px;
     margin-bottom: 9px;
@@ -160,7 +210,6 @@ body{
     color: #ddd;
 }
 
-/* 2 column section */
 .head3{
     font-family: "Roboto";
     font-size: 25px;
@@ -169,16 +218,163 @@ body{
     top:1150px;
     left: 550px;
     text-align: center;
-}
+} */
 
 .grid2 alpha img, .grid2 omega .t1 tbody tr td img{
-    margin: 15px 15px;
+    margin: 5px 5px;
+}
+
+/* 2 column section */
+.engine_fm{
+    padding-top: 250px;
+    }
+
+
+    .engine_fm omega{
+        padding-top: 100px;
+    }
+.engine_a a{
+    position: absolute;
+    left: 860px;
+    top:1460px;
+    text-align:center;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 11px;
+    line-height: 20px;
+    border-radius: 4px;
+    border: 2px solid #008cba;
 }
 
 
+.engine_a a:hover {
+    background-color:#ddd;
+    color: #008cba;
+}
+
+/* hero unit index.html */
+.hero_unit_in img{
+    position: relative;
+    top: 100px;
+    width: 1270px;
+}
+
+.hero_unit_title_in p {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: rgb(58, 58, 58);
+  position: absolute;
+  top:135px;
+  left: 450px;
+  text-align: center;
+}
+
+.hero_unit_desc_in p{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+    position: absolute;
+    top:175px;
+    left: 10px; 
+    text-align:center;
+}
+
+
+.hero_unit_a_in a{
+    position: absolute;
+    left: 570px;
+    top:240px;
+    text-align:center;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 11px;
+    line-height: 20px;
+    border-radius: 4px;
+    border: 2px solid #008cba;
+}
+
+.hero_unit_a_in a:hover {
+    background-color:#008cba;
+    color: #ddd;
+}
+
+/* 3 column section  */
+.grids{
+    margin-bottom: 75px;
+}
+.grids h1 {
+  font-family:"Roboto";
+  font-size: 25px;
+  color: rgb(58, 58, 58);
+  position: absolute;
+  top:535px;
+  left: 450px;
+  text-align: center;
+}
+
+/* grid section of index.html */
+.grid_pic{
+    padding-top: 120px;
+}
+
+.grid_pic h4{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(58, 58, 58);
+}
+
+/* .grid_pic:hover{
+    box-shadow: 2px 4px 8px 0 #008cba;
+  
+  } */
+
+
+.grid_pic p {
+      margin : 6px 6px;
+  }
+
+.grid_pic_more{
+    padding-top: 5px;
+    padding-left: 106px;
+    margin-bottom: 9px;
+}
+
+  .grid_pic_more a{
+    text-align:center;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px;
+    line-height: 10px;
+    border-radius: 3px;
+    border: 1.5px solid #008cba;
+}
+
+
+.grid_pic_more a:hover {
+    background-color:#008cba;
+    color: #ddd;
+}
+
+/* 2 column section */
+.gallery_title{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: rgb(58, 58, 58);
+    position: absolute;
+    top:1150px;
+    left: 430px;
+    text-align: center;
+    margin: 20px 20px;
+    width: 400px;
+    height: 300px;
+
+}
+
 /* footer */
+
 .footer{
-    padding-top: 55px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     background-color: #008cba;
     color: #ddd;
 }
@@ -204,7 +400,7 @@ body{
 }
 
 .footer p{
-    padding-left: 350px;
+    padding-left: 440px;
     margin-bottom: 0;
 }
   
@@ -244,63 +440,11 @@ body{
   
 
   .fa {
-      padding: 20px;
-    font-size: 30px;
+    padding: 13px;
+    font-size: 14px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 30%;
     border-color: black;
-}
-
-/* next.html css */
-.hero_image1 img{
-    position: relative;
-    top: 180px;
-    width: 1280px;
-}
-
-.hero2tag a{
-    position: absolute;
-    left: 485px;
-    top:240px;
-    text-align:center;
-    font-size: 22px;
-    text-decoration: none;
-    padding: 11px;
-    line-height: 20px;
-    border-radius: 4px;
-    border: 2px solid #008cba;
-}
-
-
-.hero2tag a:hover {
-    background-color:#008cba;
-    color: #ddd;
-}
-
-
-.hero_image2 img{
-    position: relative;
-    top: 180px;
-    width: 1440px;
-}
-
-.hero2tag a{
-    position: absolute;
-    left: 485px;
-    top:250px;
-    text-align:center;
-    font-size: 22px;
-    text-decoration: none;
-    padding: 11px;
-    line-height: 20px;
-    border-radius: 4px;
-    border: 2px solid #008cba;
-}
-
-
-.hero1tag a:hover {
-    background-color:#008cba;
-    color: #ddd;
 }
